@@ -13,7 +13,7 @@
 
 
 ### 模型效果
-
+<p align="center">
 <table border="2">
     <thead>
         <tr>
@@ -108,6 +108,7 @@
     </tr>
 </tbody>
 </table>
+<p>
 
 
 本项目在 Room-To-Room 数据集上面已经达到了较为理想的效果。该数据集主要有四个评估指标，TL、NE、SR、SPL。如表所示在本项目之中，我们的模型在 Room-To-Room 数据集 seen 部分上具有着较好的性能，在 NE 和 SR 两个指标之中超过了大部分的 VLN 模型。在 Room-To-Room 数据集 unseen 部分我们的模型数据也同样到达了总体 VLN 模型中的中上游水准。总体看来，我们提出的算法已经有能力进行一些实地场景的测试与实验。
