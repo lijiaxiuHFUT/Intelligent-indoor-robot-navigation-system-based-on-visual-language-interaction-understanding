@@ -25,8 +25,8 @@
     </thead>
     <tbody>
     <tr>    
-            <td><b>名称 </b></td>
-            <td><b>名称</b></td>
+            <td><b> </b></td>
+            <td><b></b></td>
             <td>TL</td>
             <td>NE</td>
             <td>SR</td>
