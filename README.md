@@ -176,7 +176,7 @@
 - Batch size : 16
 - Epoch: 300,000 。
 
-**注：**对于虚拟数据集 R2R 而言，我们分别在原 始数据和通过 PREVALENT 数据增强方法来进行训练。对于预训练而言，我们选择使用由 Places365 上 预训练的 ResNet-152 权重来进行实验。一次训练完整的训练时间为六天左右。
+**注：** 对于虚拟数据集 R2R 而言，我们分别在原 始数据和通过 PREVALENT 数据增强方法来进行训练。对于预训练而言，我们选择使用由 Places365 上 预训练的 ResNet-152 权重来进行实验。一次训练完整的训练时间为六天左右。
 
 <p align="center"> <img src='pic/prevalent.jpg' align="center"> </p>
 
