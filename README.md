@@ -72,11 +72,11 @@
         <td>11.15</td>
         <td>2.51</td>
         <td> 76 </td>
-        <td> <b>72</b></td>
+        <td> <font color="#FF0000"><b>72</b></font> </td>
         <td> 11.46</td>
-        <td> <b>2.29</b></td>
+        <td> <font color="#FF0000"><b>2.29</b></font> </td>
         <td>66</td>
-        <td><b>61</b></td>
+        <td><font color="#FF0000"><b>61</b></font></td>
     </tr>
 </tbody>
 <tbody>
@@ -87,9 +87,9 @@
         <td>/</td>
         <td>/</td>
         <td>/</td>
-        <td><b> 13.94</b>  </td>
+        <td><font color="#FF0000"><b> 13.94</b></font>  </td>
         <td> 3.31</td>
-        <td><b>72</b></td>
+        <td><font color="#FF0000"><b>72</b></font></td>
         <td>60</td>
     </tr>
 </tbody>
@@ -98,8 +98,8 @@
         <td><b>Ours</b></td>
         <td> </td>
         <td>11.01</td>
-    <td><b>2.45</b></td>
-        <td><b>77</b></td>
+        <td><font color="#FF0000"><b>2.45</b></font></td>
+        <td><font color="#FF0000"><b>77</b></font></td>
         <td>69</td>
         <td> 12.04  </td>
         <td> 4.03</td>
@@ -108,6 +108,7 @@
     </tr>
 </tbody>
 </table>
+
 
 本项目在 Room-To-Room 数据集上面已经达到了较为理想的效果。该数据集主要有四个评估指标，TL、NE、SR、SPL。如表所示在本项目之中，我们的模型在 Room-To-Room 数据集 seen 部分上具有着较好的性能，在 NE 和 SR 两个指标之中超过了大部分的 VLN 模型。在 Room-To-Room 数据集 unseen 部分我们的模型数据也同样到达了总体 VLN 模型中的中上游水准。总体看来，我们提出的算法已经有能力进行一些实地场景的测试与实验。
 
@@ -135,7 +136,7 @@
 
 ### 训练可视化
 
-​	我们分别对数据集训练的路径最大长度、spl 指标、loss以及决策数量进行了可视化。
+​	我们分别对数据集训练的路径最大长度（图 4）、spl 指标（图 5）、loss（图 6）以 及决策数量（图 7）进行了可视化。
 
 - 最大长度可视化
 
