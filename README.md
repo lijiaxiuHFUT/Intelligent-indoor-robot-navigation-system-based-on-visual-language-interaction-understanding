@@ -230,6 +230,9 @@ bash run/train_agent.bash
 
 训练权重会保存在 `snap/`目录下
 
+### 结题证明
+
+  <p align="center"> <img src='pic/certificate.jpg' align="center" height="180px"> </p>
 
 
 
